@@ -1,0 +1,62 @@
+.headerTitle{
+  color:  #3d3d9b;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  position: relative;
+  top: 120px;
+  font-size: 1.5rem;
+}
+.headerTex{
+  padding-left: 15px;
+  position: relative;
+  top: 130px;
+  border-bottom: 1px solid white;
+  font-size: 2rem;
+  padding: 0 20px;
+}
+.headerBtn{
+  position: relative;
+  top: 150px;
+  width: 550px;
+  font-size: 2rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.headerBtn:hover{
+  font-size: 2.5rem;
+}
+.center{
+  text-align: center;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hidden{
+  display: none;
+}
+.show{
+  width: 100vw;
+  height: 100vh;
+  display:block;
+  position: relative;
+  padding: 70px;
+  background: #3d3d9b; 
+}
+.holidays{
+  background: url(./assets/fondo-bokeh-perfecto-canva.jpg);
+  width: 90%;
+  height: 80%;
+  position: relative; 
+  top: -180px;
+}
+.titulo{
+  font-size: 4rem;
+  padding-top: 50px;
+}
